@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: redis-demo1
+  data:
+    redis:
+      client-name: redis-demo1
+      host: 127.0.0.1
+      port: 16379
+      password: 123456
+      database: 0
+      timeout: 10000
